@@ -1,7 +1,6 @@
 # Instagram Clone
 
-This  Android app allows users to detect objects in real-time using both the front and back cameras with the YOLO (You Only Look Once) model. The app provides a smooth interface for switching cameras and visualizing detected objects with bounding boxes and labels. It is optimized for fast, accurate detection on mobile devices.
-
+This Android app is a basic implementation of an Instagram-like platform, allowing users to upload photos and reels, follow others, and manage their profiles. It provides a simple yet functional social media experience with a clean and responsive UI.
 ---
 
 ## Features
