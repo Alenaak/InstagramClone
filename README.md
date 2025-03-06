@@ -27,7 +27,7 @@ This Android app is a basic implementation of an Instagram-like platform, allowi
 2. Upload photos and reels to share with others.
 3.  Follow users to see their content in your feed.
 
-<img src="https://github.com/Alenaak/Detectify/blob/main/images/SCREENSHOT.png" alt="Application Interface" width="600"/>
+
 
 
 ---
