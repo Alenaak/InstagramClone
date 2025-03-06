@@ -4,7 +4,7 @@ This Android app is a basic implementation of an Instagram-like platform, allowi
 
 ---
 
-SAMPLE IMAGES IN 'TESTIMAGES' FOLDER
+(SAMPLE IMAGES IN 'TESTIMAGES' FOLDER)
 
 ---
 
