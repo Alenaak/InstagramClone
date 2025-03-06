@@ -1,4 +1,4 @@
-# nstaClone
+# InstaClone
 
 This Android app is a basic implementation of an Instagram-like platform, allowing users to upload photos and reels, follow others, and manage their profiles. It provides a simple yet functional social media experience with a clean and responsive UI.
 
