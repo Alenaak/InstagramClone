@@ -1,46 +1,37 @@
-# Instagram Clone
+# instaClone
 
 This Android app is a basic implementation of an Instagram-like platform, allowing users to upload photos and reels, follow others, and manage their profiles. It provides a simple yet functional social media experience with a clean and responsive UI.
+
 ---
 
 ## Features
-1. **Dual Camera Support**: Easily switch between the front and back cameras for object detection.
-2. **Real-Time Object Detection**: Utilizes the YOLO model to detect multiple objects in real-time with high accuracy.
-3. **Bounding Boxes and Labels**: Detected objects are highlighted with bounding boxes and class labels for better visualization.
-4. **Efficient Processing**: Powered by TensorFlow Lite for smooth and efficient model inference on Android devices.
-5. **User-Friendly Interface**: Designed with Jetpack Compose for a clean, responsive, and intuitive UI.
+1. **Photo & Reel Uploading**: Users can upload images and reels to share with others.
+2. **Posts & Reels Display**: A simple feed displays all uploaded posts and reels.
+3. **Follow & Unfollow**: Users can follow and unfollow others to customize their feed.
+4. **Profile Photo Uploading**: Users can set and update their profile pictures.
+
 ---
 
 ## Technical Implementation
 
-### YOLO Model Integration
-- The app integrates the YOLOv5 model converted to TensorFlow Lite for fast, on-device inference.
-- Models are optimized for mobile devices to balance accuracy and performance.
+### Firebase Integration
+- Uses Firebase Storage for uploading and storing images and reels.
+- Firestore Database manages user profiles, posts, and follow relationships.
+- Firebase Authentication ensures secure user login and sign-up.
 
-### Object Visualization
-- Detected objects are overlaid with dynamic bounding boxes and labels.
-- The UI updates instantly with every frame, ensuring smooth object tracking.
-### Performance Optimization
-- Efficient use of background threads for model processing to keep the UI responsive.
-- Uses TensorFlow Lite’s GPU delegate for accelerated performance (if available).
 
 ---
 
 ## User Experience
-1. Launch the App → Grant Camera Permission → Real-time Object Detection.
-2. Use the Switch Camera button to toggle between front and back cameras.
-3. View detected objects with live bounding boxes and labels.
-
+1. Sign up or log in to your account.
+2. Upload photos and reels to share with others.
+3.  Follow users to see their content in your feed.
 
 <img src="https://github.com/Alenaak/Detectify/blob/main/images/SCREENSHOT.png" alt="Application Interface" width="600"/>
 
 
 ---
 
-## Error Handling
-- **Camera Access Denied**: Prompts the user to grant camera permissions if denied.
-
----
 
 ## Conclusion
-The Detectify App is a powerful and efficient app for real-time object detection using both the front and back cameras. By combining the YOLO model with TensorFlow Lite and Camera, the app offers accurate detection with a user-friendly interface, making it perfect for everyday use and practical applications in object recognition.
+The InstaClone app is a simple yet effective implementation of Instagram’s core features.It offers smooth performance and an intuitive user experience for sharing and engaging with content and can be enhanced with add-on features.
